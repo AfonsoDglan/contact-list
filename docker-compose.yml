@@ -22,12 +22,12 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data/
-  #front:
-  #  build: ./frontend
-  #  ports:
-  #    - 8080:3000
-  #  depends_on:
-  #    - web
+  front:
+    build: ./frontend
+    ports:
+      - 8080:3000
+    depends_on:
+      - web
   sgbd:
     image: dpage/pgadmin4
     ports:

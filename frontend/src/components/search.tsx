@@ -1,6 +1,6 @@
 export default function Search(){
     return(
-        <div className="m-2">
+        <div className="m-2 p-6">
             <label className="relative block">
                 <span className="sr-only">Search</span>
                 <span className="absolute inset-y-0 left-0 flex items-center pl-2">

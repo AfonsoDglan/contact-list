@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-black w-1/4 h-3/4 rounded-lg	">
+    <main className="bg-blue-950 w-1/4 h-3/4 rounded-lg	overflow-y-auto">
       <Search/>
       <Contacts/>
     </main>
