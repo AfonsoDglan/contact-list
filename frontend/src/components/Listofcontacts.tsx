@@ -1,7 +1,9 @@
+'use client'
+
 import { useState, useEffect } from 'react'
 import axios from 'axios';
 
-export default async function Contacts() {
+export default function Contacts() {
     const [people, setPeople] = useState([]);
 
     useEffect(() => {
