@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 router = routers.DefaultRouter()
-router.register('contact', ContactsViewSet)
+router.register('contact', ContactsViewSet, basename='ContactsApi')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
