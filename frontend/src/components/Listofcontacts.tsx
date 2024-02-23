@@ -17,7 +17,7 @@ export default function Contacts() {
     }, []);
 
     return (
-        <div>
+        <div className="scrollbar">
             <ul role="list" className='px-6 divide-y divide-slate-200'>
                 {people.map(person => (
                     <li key={person.id} className="flex bg-blue-200 items-center justify-start rounded-md mt-1 py-4 pl-2">
